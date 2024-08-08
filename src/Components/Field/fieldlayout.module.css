@@ -1,0 +1,12 @@
+.field {
+	display: grid;
+	grid-template-columns: repeat(3, 35px);
+	grid-template-rows: repeat(3, 35px);
+}
+
+.field__item {
+	border: 1px solid rgb(134, 31, 160);
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
